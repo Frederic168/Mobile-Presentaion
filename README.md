@@ -15,9 +15,9 @@ The android.media.MediaPlayer class is usd to control the audio or video files. 
 <h3>Using MediaPlayer</h3>
 One of the most important components of the media framework is the MediaPlayer class. An object of this class can fetch, decode, and play both audio and video with minimal setup. It supports several different media sources such as:
 
-<h5>Local resources</h5>
-<h5>Internal URIs, such as one you might obtain from a Content Resolver</h5>
-<h5>External URLs (streaming)</h5>
+<h5>1. Local resources</h5>
+<h5>2. Internal URIs, such as one you might obtain from a Content Resolver</h5>
+<h5>3. External URLs (streaming)</h5>
 For a list of media formats that Android supports, see the Supported Media Formats page.
 
 Here is an example of how to play audio that's available as a local raw resource (saved in your application's res/raw/ directory):
