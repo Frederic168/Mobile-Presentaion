@@ -1,7 +1,7 @@
 Media Player
 https://www.javatpoint.com/kotlin-android-media-player
 https://developer.android.com/guide/topics/media/mediaplayer
-<h1>Media Player</h1>
+<h1 class="center">Media Player</h1>
 <h2>Introduction</h2>
 Media is a class that is used to control the playback of audio/vedio files and streams.
 
