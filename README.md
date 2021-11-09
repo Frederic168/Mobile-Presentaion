@@ -50,7 +50,7 @@ Add another ImageButton like before, except this time use ic_media_pause as the 
 
 With the play and pause buttons now added to the layout, we can write the Kotlin code which makes the buttons operational.
 
-<h2>Making the play and pause buttons operational</h2>
+<h2>Code example</h2>
 To make the buttons operational, open the Kotlin file which manages the layout e.g. MainActivity.kt (found by navigating through Project > app > java > com) then add the following import statements to the top of the file:
 
 ```xml
