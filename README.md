@@ -28,7 +28,7 @@ Set the Directory name to 'raw' then press OK.
 <img width="100%" src="images/sound2.png" />
 
 This will create a folder called raw, which is where you will store media files. For this tutorial, we will use an MP3 recording of running water (which you can download below) but you are welcome to use another audio file of your choosing.
-<img width="100%" src="images/water.png" />
+<img width="30%" src="images/water.png" />
 
 Drag and drop the audio file from your computer into the raw folder. Note, you may also be asked to confirm that you wish to move the audio file over to the project.
 <img width="100%" src="images/sound3.png" />
@@ -103,4 +103,4 @@ override fun onStop() {
 }
 ...
 ```
-<img width="100%" src="images/screen.png" />
+<img width="30%" src="images/screen.png" />
