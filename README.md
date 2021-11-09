@@ -1,6 +1,7 @@
 Media Player
 https://www.javatpoint.com/kotlin-android-media-player
 https://developer.android.com/guide/topics/media/mediaplayer
+https://codersguidebook.com/how-to-create-an-android-app/play-sounds-music-android-app
 # **Media Player**
 <h2>Introduction</h2>
 Media is a class that is used to control the playback of audio/vedio files and streams.
@@ -103,4 +104,5 @@ override fun onStop() {
 }
 ...
 ```
+Then this is the final page looks:
 <img width="30%" src="images/screen.png" />
