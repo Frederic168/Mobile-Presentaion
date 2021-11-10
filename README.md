@@ -9,14 +9,14 @@ The android.media.MediaPlayer class is usd to control the audio or video files. 
 <img width="100%" src="images/method.PNG" />
 </div>
 
-<h3>Using MediaPlayer</h3>
+## Using MediaPlayer
 One of the most important components of the media framework is the MediaPlayer class. An object of this class can fetch, decode, and play both audio and video with minimal setup. It supports several different media sources such as:
 <h4>1. Local resources.</h4>
 <h4>2. Internal URIs, such as one you might obtain from a Content Resolver.</h4>
 <h4>3. External URLs (streaming).</h4>
 For a list of media formats that Android supports, see the Supported Media Formats page.
 
-<h3>Code example</h3>
+## Code example
 Sound effects and music that will be used in the app first must be imported into the Android Studio project. To do this, navigate through Project > app then right-click the res folder. Select New > Android Resource Directory
 <img width="100%" src="images/sound.png" />
 
@@ -31,7 +31,7 @@ Drag and drop the audio file from your computer into the raw folder. Note, you m
 
 The water.mp3 file is now ready to be used.
 
-<h2>Adding the play and pause buttons</h2>
+## Adding the play and pause buttons
 In this section, we will add the play and pause buttons which will control playback. Open up the layout file where you want the buttons to go such as activity_main.xml (found by navigating through Project > app > res > layout). Open the file in Design view and locate the Palette. Search in the Buttons category for the ImageButton widget then drag and drop it into the layout.
 <img width="100%" src="images/sound4.png" />
 
@@ -45,7 +45,7 @@ Add another ImageButton like before, except this time use ic_media_pause as the 
 
 With the play and pause buttons now added to the layout, we can write the Kotlin code which makes the buttons operational.
 
-<h2>Code example</h2>
+## Making the play and pause buttons operational
 To make the buttons operational, open the Kotlin file which manages the layout e.g. MainActivity.kt (found by navigating through Project > app > java > com) then add the following import statements to the top of the file:
 
 ```xml
