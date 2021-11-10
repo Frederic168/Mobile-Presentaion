@@ -16,7 +16,7 @@ One of the most important components of the media framework is the MediaPlayer c
 <h4>3. External URLs (streaming).</h4>
 For a list of media formats that Android supports, see the Supported Media Formats page.
 
-## Code example
+## Importing audio files
 Sound effects and music that will be used in the app first must be imported into the Android Studio project. To do this, navigate through Project > app then right-click the res folder. Select New > Android Resource Directory
 <img width="100%" src="images/sound.png" />
 
@@ -45,7 +45,7 @@ Add another ImageButton like before, except this time use ic_media_pause as the 
 
 With the play and pause buttons now added to the layout, we can write the Kotlin code which makes the buttons operational.
 
-## Making the play and pause buttons operational
+## Code example
 To make the buttons operational, open the Kotlin file which manages the layout e.g. MainActivity.kt (found by navigating through Project > app > java > com) then add the following import statements to the top of the file:
 
 ```xml
