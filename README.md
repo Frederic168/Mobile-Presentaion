@@ -1,9 +1,5 @@
-Media Player
-https://www.javatpoint.com/kotlin-android-media-player
-https://developer.android.com/guide/topics/media/mediaplayer
-https://codersguidebook.com/how-to-create-an-android-app/play-sounds-music-android-app
 # **Media Player**
-## Introduction
+## Overview
 Media is a class that is used to control the playback of audio/vedio files and streams.
 
 The android.media.MediaPlayer class is usd to control the audio or video files. It access the build-in media player services such as playing audio, video, etc. To use the MediaPlayer class, we have to call the create the instance of it by calling create() method of this class.
@@ -103,5 +99,13 @@ override fun onStop() {
 }
 ...
 ```
-Then this is the final page looks:
+<h3> Then this is the final page looks:</h3>
 <img width="30%" src="images/screen.png" />
+
+**Resources:** 
+
+- <https://www.javatpoint.com/kotlin-android-media-player>
+- <https://developer.android.com/guide/topics/media/mediaplayer>
+- <https://codersguidebook.com/how-to-create-an-android-app/play-sounds-music-android-app>
+
+
