@@ -42,8 +42,7 @@ A 'Pick a Resouce' window will invite you to select an image for the button. Sel
 Select the Play button then refer to the Attributes panel. Set the id to **'playButton'** and the onClick attribute to **'playSound'**. Note the playSound value may not be recognised by Android Studio yet but this will be resolved shortly.
 <img width="100%" src="images/sound6.png" />
 
-Add another ImageButton like before, except this time use **ic_media_pause as the image**, set the id to pauseButton and set the onClick attribute to pauseSound. NB: you may have to resolve missing constraints and missing contentDescription errors.
-
+Add another ImageButton like before, except this time use **ic_media_pause as the image**, set the id to pauseButton and set the onClick attribute to pauseSound.
 With the play and pause buttons now added to the layout, we can write the Kotlin code which makes the buttons operational.
 
 ## Code example
