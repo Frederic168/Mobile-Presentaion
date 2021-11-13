@@ -106,7 +106,7 @@ override fun onStop() {
 **Resources:** 
 
 - Kotlin Android Media Player. (2022). Javatpoint. https://www.javatpoint.com/kotlin-android-media-player
-- <https://developer.android.com/guide/topics/media/mediaplayer>
-- <https://codersguidebook.com/how-to-create-an-android-app/play-sounds-music-android-app>
+- MediaPlayer overview. (2021). Developers. https://developer.android.com/guide/topics/media/mediaplayer
+- Coders’ Guidebook. (2021). Coders’ Guidebook. https://codersguidebook.com/how-to-create-an-android-app/play-sounds-music-android-app
 
 
