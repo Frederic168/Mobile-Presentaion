@@ -18,10 +18,10 @@ One of the most important components of the media framework is the MediaPlayer c
 For a list of media formats that Android supports, see the Supported Media Formats page.
 
 ## Importing audio files
-Sound effects and music that will be used in the app first must be imported into the Android Studio project. To do this, navigate through Project > app then right-click the res folder. Select New > Android Resource Directory
+Sound effects and music that will be used in the app first must be imported into the Android Studio project. To do this, navigate through **Project > app then right-click the res folder**. **Select New > Android Resource Directory**
 <img width="100%" src="images/sound.png" />
 
-Set the Directory name to 'raw' then press OK.
+Set the Directory name to **'raw'** then press OK.
 <img width="100%" src="images/sound2.png" />
 
 This will create a folder called raw, which is where you will store media files. For this tutorial, we will use an MP3 recording of running water (which you can download below) but you are welcome to use another audio file of your choosing.
@@ -33,21 +33,21 @@ Drag and drop the audio file from your computer into the raw folder. Note, you m
 The water.mp3 file is now ready to be used.
 
 ## Adding the play and pause buttons
-In this section, we will add the play and pause buttons which will control playback. Open up the layout file where you want the buttons to go such as activity_main.xml (found by navigating through Project > app > res > layout). Open the file in Design view and locate the Palette. Search in the Buttons category for the ImageButton widget then drag and drop it into the layout.
+In this section, we will add the play and pause buttons which will control playback. Open up the layout file where you want the buttons to go such as activity_main.xml (found by navigating through **Project > app > res > layout**). Open the file in Design view and locate the Palette. Search in the Buttons category for the ImageButton widget then drag and drop it into the layout.
 <img width="100%" src="images/sound4.png" />
 
-A 'Pick a Resouce' window will invite you to select an image for the button. Select ic_media_play then press OK to add the button to the layout.
+A 'Pick a Resouce' window will invite you to select an image for the button. Select **ic_media_play** then press OK to add the button to the layout.
 <img width="100%" src="images/sound5.png" />
 
-Select the Play button then refer to the Attributes panel. Set the id to 'playButton' and the onClick attribute to 'playSound'. Note the playSound value may not be recognised by Android Studio yet but this will be resolved shortly.
+Select the Play button then refer to the Attributes panel. Set the id to **'playButton'** and the onClick attribute to **'playSound'**. Note the playSound value may not be recognised by Android Studio yet but this will be resolved shortly.
 <img width="100%" src="images/sound6.png" />
 
-Add another ImageButton like before, except this time use ic_media_pause as the image, set the id to pauseButton and set the onClick attribute to pauseSound. NB: you may have to resolve missing constraints and missing contentDescription errors.
+Add another ImageButton like before, except this time use **ic_media_pause as the image**, set the id to pauseButton and set the onClick attribute to pauseSound. NB: you may have to resolve missing constraints and missing contentDescription errors.
 
 With the play and pause buttons now added to the layout, we can write the Kotlin code which makes the buttons operational.
 
 ## Code example
-To make the buttons operational, open the Kotlin file which manages the layout e.g. MainActivity.kt (found by navigating through Project > app > java > com) then add the following import statements to the top of the file:
+To make the buttons operational, open the Kotlin file which manages the layout e.g. MainActivity.kt (found by navigating through **Project > app > java > com**) then add the following import statements to the top of the file:
 
 ```xml
 ...
