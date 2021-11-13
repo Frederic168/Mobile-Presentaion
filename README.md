@@ -1,6 +1,6 @@
 # **Media Player**
 ## Overview
-Media players are used to automatically embed files in the pages. It is normally video or audio files or links to media sharing sites such as YouTube. However, it is also possible to use media players for embedding other contents - diagrams, formulas, etc.
+The Android multimedia framework includes support for playing variety of common media types, so that you can easily integrate audio, video and images into your applications. You can play audio or video from media files stored in your application's resources (raw resources), from standalone files in the filesystem, or from a data stream arriving over a network connection, all using MediaPlayer APIs.
 
 ## Methods of MediaPlayer class
 Media is a class that is used to control the playback of audio/vedio files and streams.
