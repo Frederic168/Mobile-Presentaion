@@ -100,7 +100,7 @@ override fun onStop() {
 }
 ...
 ```
-<h3> Then this is the final page looks:</h3>
+<h3> And that's it! If you run the app now you should find you can play and pause the water sound on command.</h3>
 <img width="30%" src="images/screen.png" />
 
 **Resources:** 
