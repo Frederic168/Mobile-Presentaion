@@ -3,11 +3,11 @@
 Media players are used to automatically embed files in the pages. It is normally video or audio files or links to media sharing sites such as YouTube. However, it is also possible to use media players for embedding other contents - diagrams, formulas, etc.
 
 ## Methods of MediaPlayer class
-<div>There are examples of MediaPlayer method:</div>
-<img width="100%" src="images/method.PNG" />
 Media is a class that is used to control the playback of audio/vedio files and streams.
 
 The android.media.MediaPlayer class is usd to control the audio or video files. It access the build-in media player services such as playing audio, video, etc. To use the MediaPlayer class, we have to call the create the instance of it by calling create() method of this class.
+<div>There are examples of MediaPlayer method:</div>
+<img width="100%" src="images/method.PNG" />
 </div>
 
 ## Using MediaPlayer
